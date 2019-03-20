@@ -1,0 +1,11 @@
+kumuluzee:
+  datasources:
+    - jndi-name: jdbc/DemoDS
+      connection-url: jdbc:mysql://127.0.0.1:3306/kumuluzee_demo?useSSL=false
+      username: root
+      password: password
+      max-pool-size: 20
+  swagger:
+    enabled: true
+    ui:
+      enabled: true
